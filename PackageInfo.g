@@ -18,7 +18,7 @@ Persons := [
   rec(
     FirstNames := "Simon",
     LastName := "King",
-    WWWHome := "Tel: ",
+    WWWHome := "https://users.fmi.uni-jena.de/~king/index.html",
     Email := "simon dot king at uni hyphen jena dot de",
     IsAuthor := true,
     IsMaintainer := true,
@@ -64,7 +64,7 @@ PackageDoc := rec(
 ),
 
 Dependencies := rec(
-  GAP := ">= 4.11",
+  GAP := ">= 4.10",
   NeededOtherPackages := [ ],
   SuggestedOtherPackages := [ ],
   ExternalConditions := [ ],

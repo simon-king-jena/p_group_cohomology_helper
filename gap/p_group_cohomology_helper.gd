@@ -16,4 +16,9 @@
 
 #! @Description
 #!   Insert documentation for your function here
-DeclareGlobalFunction( "p_group_cohomology_helper_Example" );
+
+DeclareGlobalVariable( "exportMTXLIB", "A string that is used when calling some executables in the shell");
+DeclareGlobalFunction( "canonicalIsomorphism" );
+DeclareGlobalFunction( "makeThisSmallGroup" );
+DeclareGlobalFunction( "isPrimePower" );
+DeclareGlobalFunction( "verifiedMinGens" );
