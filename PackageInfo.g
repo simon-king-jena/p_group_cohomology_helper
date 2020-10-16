@@ -30,10 +30,10 @@ Persons := [
 
 SourceRepository := rec(
     Type := "git",
-    URL := "https://github.com/dimpase/p_group_cohomology_helper",
+    URL := "https://github.com/simon-king-jena/p_group_cohomology_helper"
 ),
 IssueTrackerURL := Concatenation( ~.SourceRepository.URL, "/issues" ),
-PackageWWWHome  := "https://dimpase.github.io/p_group_cohomology_helper/",
+PackageWWWHome  := "https://github.com/simon-king-jena/p_group_cohomology_helper/",
 PackageInfoURL  := Concatenation( ~.PackageWWWHome, "PackageInfo.g" ),
 README_URL      := Concatenation( ~.PackageWWWHome, "README.md" ),
 ArchiveURL      := Concatenation( ~.SourceRepository.URL,
